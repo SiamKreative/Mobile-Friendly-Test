@@ -1,0 +1,78 @@
+body {
+	background-color: #fafafa;
+	line-height: 1.6;
+}
+html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
+	font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+}
+h1 {
+	display: inline-block;
+	border-bottom: 2px solid #0078e7;
+}
+a {
+	color: #0078e7;
+	text-decoration: none;
+}
+.valign {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.wrapper {
+	max-width: 1140px;
+	margin: 5% auto;
+}
+.loading {
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	margin: -16px -16px 0 0;
+}
+#phone {
+	box-sizing: border-box;
+	width: 380px;
+	height: 740px;
+	background: url('img/placeholder.jpg');
+	text-align: center;
+	position: relative;
+	padding-top: 115px;
+}
+.content {
+	padding-left: 10%;
+}
+.pure-control-group,
+.pure-controls {
+	margin-bottom: 1em;
+}
+.alert {
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+}
+.alert-success {
+	color: #3c763d;
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+}
+.alert-danger {
+	color: #a94442;
+	background-color: #f2dede;
+	border-color: #ebccd1;
+}
+.copy,
+.copy a {
+	color: #666;
+}
+.copy a {
+	border-bottom: 2px solid;
+}
+.copy img {
+	height: 20px;
+	margin-bottom: -5px;
+}
+#privacy-policy {
+	width: 800px;
+}
