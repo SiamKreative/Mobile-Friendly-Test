@@ -36,3 +36,7 @@ $RECYCLE.BIN/
 
 # sftp configuration file
 sftp-config.json
+
+### Custom ###
+/node_modules
+/dist
