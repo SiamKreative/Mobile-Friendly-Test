@@ -1,5 +1,5 @@
 {
-	"name": "Mobile-Friendly Test",
+	"name": "mobile-friendly-test",
 	"description": "This test will analyze a URL and report if the page has a mobile-friendly design.",
 	"author": "Julien Vernet <julien@vernet.me>",
 	"version": "1.0.0",
@@ -14,11 +14,11 @@
 	"private": true,
 	"devDependencies": {
 		"gulp": "*",
-		"useref": "*",
-		"gulpif": "*",
-		"uglify": "*",
-		"minifycss": "*",
-		"notify": "*",
+		"gulp-useref": "*",
+		"gulp-gulp-if": "*",
+		"gulp-uglify": "*",
+		"gulp-minify-css": "*",
+		"gulp-notify": "*",
 		"del": "*"
 	}
 }
