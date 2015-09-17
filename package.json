@@ -1,24 +1,26 @@
 {
-	"name": "mobile-friendly-test",
-	"description": "This test will analyze a URL and report if the page has a mobile-friendly design.",
-	"author": "Julien Vernet <julien@vernet.me>",
-	"version": "1.0.0",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/SiamKreative/Mobile-Friendly-Test/"
-	},
-	"bugs": {
-		"url": "https://github.com/SiamKreative/Mobile-Friendly-Test/issues"
-	},
-	"license": "GNU General Public License v2.0",
-	"private": true,
-	"devDependencies": {
-		"gulp": "*",
-		"gulp-useref": "*",
-		"gulp-gulp-if": "*",
-		"gulp-uglify": "*",
-		"gulp-minify-css": "*",
-		"gulp-notify": "*",
-		"del": "*"
-	}
+  "name": "mobile-friendly-test",
+  "description": "This test will analyze a URL and report if the page has a mobile-friendly design.",
+  "author": "Julien Vernet <julien@vernet.me>",
+  "version": "1.0.0",
+  "homepage": "https://siamkreative-mft.surge.sh/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SiamKreative/Mobile-Friendly-Test/"
+  },
+  "bugs": {
+    "url": "https://github.com/SiamKreative/Mobile-Friendly-Test/issues"
+  },
+  "license": "GNU General Public License v2.0",
+  "private": true,
+  "devDependencies": {
+    "del": "*",
+    "gulp": "*",
+    "gulp-gulp-if": "*",
+    "gulp-minify-css": "*",
+    "gulp-notify": "*",
+    "gulp-uglify": "*",
+    "gulp-useref": "*",
+    "surge": "^0.14.3"
+  }
 }
