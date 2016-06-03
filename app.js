@@ -27,7 +27,7 @@ jQuery(document).ready(function ($) {
 
 		// Geolocation Data
 		var geoData;
-		$.getJSON('//www.telize.com/geoip?callback=?', function (json) {
+		$.getJSON('https://freegeoip.net/json/?callback', function (json) {
 			geoData = json;
 		});
 
