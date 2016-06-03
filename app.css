@@ -40,6 +40,16 @@ a {
 	position: relative;
 	padding-top: 115px;
 }
+#viewport {
+    width: 320px;
+    height: 480px;
+    overflow: hidden;
+    margin: 0 auto;	
+}
+#viewport img {
+	max-width: 100%;
+	height: auto;
+}
 .content {
 	padding-left: 10%;
 }

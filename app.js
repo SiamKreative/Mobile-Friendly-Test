@@ -9,7 +9,7 @@ jQuery(document).ready(function ($) {
 		apiEnpoint = 'https://www.googleapis.com/pagespeedonline/v3beta1/mobileReady?key=AIzaSyDkEX-f1JNLQLC164SZaobALqFv4PHV-kA&screenshot=true&snapshots=true&locale=en_US&strategy=mobile&filter_third_party_resources=false&url=',
 		form = $('#mobilefriendly'),
 		output = $('#output'),
-		phone = $('#phone'),
+		viewport = $('#viewport'),
 		submit = $('#submit');
 
 	form.on('submit', function (event) {
@@ -65,7 +65,7 @@ jQuery(document).ready(function ($) {
 			if (json.ruleGroups.USABILITY.pass === true) {
 
 				output.html('<div class="alert alert-success" role="alert">Your site is mobile friendly. Congrats!</div>');
-				phone.html('').append('<img src="data:' + json.screenshot.mime_type + ';base64,' + safeb64 + '" width="' + json.screenshot.width + '" height="' + json.screenshot.height + '" alt="">');
+				viewport.html('').append('<img src="data:' + json.screenshot.mime_type + ';base64,' + safeb64 + '" width="' + json.screenshot.width + '" height="' + json.screenshot.height + '" alt="">');
 
 			} else {
 
@@ -75,7 +75,7 @@ jQuery(document).ready(function ($) {
 
 				output.html('<div class="alert alert-danger" role="alert"><strong>Oh snap!</strong> Your website is not mobile friendly.</div>');
 				output.append('<ul>' + dynamicItems + '</ul>');
-				phone.html('').append('<img src="data:' + json.screenshot.mime_type + ';base64,' + safeb64 + '" width="' + json.screenshot.width + '" height="' + json.screenshot.height + '" alt="">');
+				viewport.html('').append('<img src="data:' + json.screenshot.mime_type + ';base64,' + safeb64 + '" width="' + json.screenshot.width + '" height="' + json.screenshot.height + '" alt="">');
 
 			}
 
